@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+:root{
+    --color-1: #5a3044;
+    --color-2: #794155;
+    --color-3: #a85f6b;
+    --color-4: #d98792;
+    --color-5: #e2afb0;
+    --color-6: #ff5e08;
+    --color-7: #ff9e08;
+    --color-8: #ffe042;
+    --color-9: #fffb9d;
+    --color-10: #fffbde;
+    --font-1: "Satisfy", cursive;
+    --font-2: "Open Sans", sans-serif;
+
+
+}
+
+/* 
+
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background: #d1d9e7;
+    font-family: var(--font-3);
+
+}
+
+header{
+    background: rgb(14, 14, 14);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;   
+    flex-direction:row;
+    
+}
+#circle{
+    background: var(--color-3);
+    padding: 0 15px;
+    border-radius: 50%;
+}
+
+#navgation{
+    display: flex;
+    gap: 3em;
+    font-size: 1.4em;
+}
+
+li a{
+    color: var(--color-2);
+}li a:hover{
+    color: var(--color-5);
+}
+
+#logo{
+    font-family: var(--font-1);
+    color: var(--color-2);
+    font-size: 2.3em;
+}
+
+#g-logo{
+    font-size: 2em;
+    color: white;
+}
+
+#main{
+    max-width: 900px;
+    margin: 40px auto;
+    height: 100%;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#nome-projeto{
+    width: 40%;
+    font-size: 2em;
+    border-bottom: 1px solid var(--color-5);
+    color: var(--color-2);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+p #intro{
+    text-align: justify;
+    line-height: 1.6em;
+    margin: 40px;
+    font-size: 1.4em;
+    
+}
+
+#form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+
+#tarefa, #caixa-digita, #btn{
+    width: 60%;
+    font-size: 1.6em;
+}
+
+#caixa-digita{
+    padding: 5px;
+}
+
+#btn{
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: white;
+    width: 50%;
+    height: 40px;
+    display: block;
+    border: none;
+    background-color: var(--color-1);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px black;
+
+}
+
+#resultado{
+    margin: 20px;
+}
+#tarefa{
+    width: 95%;
+    display: block;
+    background: #d1d9e7;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    padding: 20px;
+    margin: auto;  
+    border-radius: 5px;
+    text-wrap: wrap;
+    
+}
+
+#nome-tarefas{
+    width: 40%;
+    font-size: 2em;
+    border-bottom: 1px solid var(--color-5);
+    color: var(--color-6);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+
+
